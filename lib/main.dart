@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:imageeditor/screen/home_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +13,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: "Editor",
+      title: "Image Editor",
+      theme: ThemeData.light(),
+      home: const HomeScreen(
+
+      ),
       
      
     );
