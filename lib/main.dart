@@ -15,9 +15,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: "Image Editor",
       theme: ThemeData.light(),
-      home: const HomeScreen(
-
-      ),
+      home: const HomeScreen(),
       
      
     );

@@ -46,9 +46,13 @@
 	
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>Photo Library Use</string>
-	<key>NSCameraLibraryUsageDescription</key>
+	<key>NSCameraUsageDescription</key>
 	<string>Camera Usage</string>
-	<key>NSMicrophoneLibraryUsageDescription</key>
+	<key>NSMicrophoneUsageDescription</key>
 	<string>Mic Usage</string>
+
+    <key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Photo Library Add Usage</string>
+	
 </dict>
 </plist>
